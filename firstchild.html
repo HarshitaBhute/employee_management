@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>:first-child Example</title>
+
+    <style>
+        .container {
+            margin: 20px;
+        }
+
+        .box {
+            background-color: lightgray;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+        }
+
+        .container .box:first-child {
+            background-color: lightgreen;
+            font-weight: bold;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>first-child Example</h2>
+
+<div class="container">
+    <div class="box">Box 1 (First Child)</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+</body>
+</html>
